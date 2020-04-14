@@ -1,0 +1,50 @@
+@import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
+@import (less) "node_modules/powerbi-visuals-utils-chartutils/lib/index.css";
+
+.radarChart {
+    @defaultColor: grey;
+    @labelLinkColor: #e1e1e1;
+
+    .pathStyle(@strokeWidth) {
+        fill: none;
+        stroke: @defaultColor;
+        stroke-opacity: 0.75;
+        stroke-width: @strokeWidth;
+    }
+
+    .axis {
+        path, line {
+            fill: none;
+            stroke: @defaultColor;
+            stroke-width: 1px;
+        }
+
+        text {
+            font-family: sans-serif;
+        }
+    }
+
+    .axisLongLabelLink, .axisShortLabelLink {
+        stroke-opacity: 0.5;
+        fill: none;
+        stroke: @labelLinkColor;
+        stroke-width: 1px;
+    }
+
+    .segments {
+        path, line {
+            .pathStyle(0.3px);
+        }
+    }
+
+    .zeroSegment {
+        path, line {
+            .pathStyle(2px);
+        }
+
+        text {
+            .pathStyle(1px);
+            font-size: 10px;
+        }
+    }
+}
