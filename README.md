@@ -31,7 +31,7 @@ You can select any data point for data filtering and also you can use multi sele
 #Settings of RadarChart
 
 Legend
-
+![1](https://user-images.githubusercontent.com/53463381/79214107-df38e300-7e67-11ea-8c08-d989afbd78d0.PNG)
 
 
 Title: On/Off legend title
@@ -42,7 +42,7 @@ Text Size: size of legend text
 
 #Data colors
 
-
+![2](https://user-images.githubusercontent.com/53463381/79214136-e9f37800-7e67-11ea-8a1e-9a6b60b1df2d.PNG)
 
 Change color of each of categories
 
@@ -56,9 +56,12 @@ LineWidth: set the width of lines
 Axis start: The value of this parameter indicates the beginning of the axis. By default Axis start is set to 0 if all values in DataSet are positive, but if data set contains values less then 0, then it'll be minimum dataset value under 0. Axis start cannot be greater than minimum value of dataset values. You can compare the difference when Axis start is changed on next two images:
 
 
+![4](https://user-images.githubusercontent.com/53463381/79214146-ef50c280-7e67-11ea-8849-c6e51292ec23.PNG)
+
 Axis start position: set the starting axis position North or South. You can see the difference on the next picture:
 
 
 Data labels
 Color: set color of data labels
 Text size: set text font size of data labels
+![l](https://user-images.githubusercontent.com/53463381/79214237-1a3b1680-7e68-11ea-8e11-66becbf0aee3.PNG)
